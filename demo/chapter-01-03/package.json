@@ -1,0 +1,19 @@
+{
+  "name": "chapter-01-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node_modules/.bin/rollup -w -c ./build/rollup.config.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@rollup/plugin-babel": "^5.0.0",
+    "rollup": "^2.7.6",
+    "rollup-plugin-serve": "^1.0.1"
+  },
+  "dependencies": {}
+}
